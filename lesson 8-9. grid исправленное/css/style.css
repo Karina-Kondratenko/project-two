@@ -1,0 +1,306 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(../https://bestfonts.pro/font/download-web/5c40feead9130e04f6d59b27/Gilroy-Regular/https://www.1001fonts.com/objectivity-font.html#license.medium.otf);
+}
+
+*{
+    
+}
+
+body {
+    height: 471px;
+    width: 1366px;
+    min-width: auto;
+}
+
+header {
+    height: 321px;
+    width: 100%;
+    background-image: url(/img/Mask.svg);
+    background-repeat: no-repeat;
+    background-size: 1366px 290px;
+    background-position: bottom;
+}
+
+.logo {
+    position: relative;
+    background-image: url(/img/logo.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50px;
+    margin-top: 30px;
+   
+}
+
+.vector {
+    background-image: url(/img/Vector.svg);
+    background-repeat: no-repeat;
+}
+
+
+.title1 {
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    font-family: "Gilroy";
+    font-size: 44px;
+    top: 180px;
+    text-align: center;
+}
+
+.title2 {
+    position: relative;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Gilroy";
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: 320px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    height: 1500px;
+    width: 87%;
+    padding-top: 100px;
+}
+
+.left {
+    padding-top: 50px;
+    height: auto;
+    width: auto;
+    padding-left: 100px;
+}
+
+.h2 {
+    display: flex;
+    size: 20px;
+    line-height: 30px;
+    font-family: "Gilroy";
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.img:hover {
+    transform: rotate(5deg);
+    transform: scale(1.2);
+}
+
+.TEXT {
+    font-family: "Gilroy";
+    color: #1F3F68;
+    opacity: 0.6;
+    width: 250px;
+    line-height: 25px;
+}
+
+.badge {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #1F3F68;
+}
+
+a {
+    line-height: 45px;
+    font-family: "Gilroy";
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.phone {
+    background-image: url(/img/tel.svg);
+    background-repeat:no-repeat;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+.phone:hover {
+    transform: rotate(5deg);
+    transform: scale(1.2);
+}
+
+.mail {
+    background-image: url(/img/mail.svg);
+    background-repeat:no-repeat;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.right {
+    display: flex;
+    border: 0px solid;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    height: auto;
+    width: auto; 
+}
+
+form {
+    text-align: center;
+}
+
+
+input,
+textarea {
+    outline: none;
+    border: none;
+}
+
+.border {
+    height: 72px;
+    width: 428px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.Message {
+    width: 430px;
+    height: 144px;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    opacity: 0.4;
+    resize: none;
+}
+
+.button {
+    width: 428px;
+    height: 72px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5A98D0;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 60PX;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+}
+
+.googlemaps { 
+    padding-left: 100px;
+    margin-top: -650px;
+}
+
+footer {
+    font-family: "Gilroy";
+    margin-top: 100px;
+    background-color: #316099;
+    height: 869px;
+    width: 95%;
+    border-radius: 0px 200px 0px 0px;
+}
+
+.h1 {
+    width: 517px;
+    height: 92px;
+    font-family: Gilroy;
+    font-size: 26px;
+    line-height: 66px;
+    letter-spacing: 0.11em;
+    color: #FFFFFF;
+    padding-left: 117px;
+    padding-top: 40px;
+}
+
+.lorem {
+    width: 517px;
+    height: 92px;
+    padding-left: 217px;
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 70px;
+    padding-left: 117px;
+}
+
+.button1 {
+    width: 220px;
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5A98D0;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 800px;
+}
+
+.button:hover {
+    transform: rotate(5deg);
+}
+
+.button1:hover {
+    transform: rotate(-5deg);
+}
+
+.line {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    width: 1073px;
+    height: 0px;
+    margin-top: 30px;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+.flexbox {
+    display: flex;
+    flex-flow: row;
+    font-family: "Gilroy";
+    color: #FFFFFF;
+    width: 900px;
+    justify-content: space-between;
+    margin: 50px;
+    line-height: 46px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.one li:nth-child(1) {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.two li:nth-child(1) {
+    font-size: 20px;
+}
+
+.three li:nth-child(1) {
+    font-size: 20px;
+}
+
+.end {
+    padding-left: 130px;
+    size: 16px;
+    color: white;
+}
+
+
